@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lettre de motivation — Mathias Scetbon</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .pdfWrap {
+      margin-top: 14px;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.04);
+    }
+    .pdfFrame {
+      width: 100%;
+      height: min(82vh, 980px);
+      border: 0;
+      display: block;
+    }
+    .actionsRow {
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:center;
+      margin: 10px 0 4px;
+    }
+    code{background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 8px;}
+  </style>
+</head>
+<body>
+<header class="navbar">
+  <div class="nav-container">
+    <div class="brand">Mathias Scetbon</div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="cv.html">CV</a>
+      <a href="video.html">Vidéo</a>
+      <a href="lettre.html">Lettre de motivation</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+  <main class="container">
+    <section class="card">
+      <div class="topbar">
+        <h1>Lettre de motivation</h1>
+        <a class="link" href="index.html">← Retour</a>
+      </div>
+      <p>Vous pouvez consulter ma lettre de motivation ci-dessous, ou la télécharger en PDF.</p>
+      <div class="actionsRow">
+        <a class="btn primary" href="Lettre_de_motivation.pdf" download>Télécharger la lettre (PDF)</a>
+      </div>
+      <div class="pdfWrap" aria-label="Lettre de motivation au format PDF">
+        <iframe class="pdfFrame" src="Lettre_de_motivation.pdf#view=FitH" title="Lettre de motivation (PDF)"></iframe>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

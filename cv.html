@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Mathias Scetbon</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .pdfWrap {
+      margin-top: 14px;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.04);
+    }
+    .pdfFrame {
+      width: 100%;
+      height: min(82vh, 980px);
+      border: 0;
+      display: block;
+    }
+    .hint {
+      margin-top: 10px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    code{background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 8px;}
+  </style>
+</head>
+<body>
+<header class="navbar">
+  <div class="nav-container">
+    <div class="brand">Mathias Scetbon</div>
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="cv.html">CV</a>
+  <a href="video.html">Vidéo</a>
+  <a href="lettre.html">Lettre de motivation</a>
+  <a href="contact.html">Contact</a>
+</nav>
+  </div>
+</header>
+  <main class="container">
+    <section class="card">
+      <div class="topbar">
+        <a class="link" href="index.html">← Retour</a>
+        <div class="actions" style="margin-top:0;">
+          <a class="btn primary" href="CV_Mathias_Scetbon.pdf" download>Télécharger le CV (PDF)</a>
+        </div>
+      </div>
+      <h1>CV — Mathias Scetbon</h1>
+      <p>Si le lecteur PDF ne s’affiche pas sur ton navigateur, utilise le bouton <strong></strong>.</p>
+      <div class="pdfWrap" aria-label="CV au format PDF">
+        <!-- PDF viewer (most browsers) -->
+        <iframe class="pdfFrame" src="CV_Mathias_Scetbon.pdf#view=FitH" title="CV Mathias Scetbon (PDF)"></iframe>
+      </div>
+      <p class="hint">
+        
+    </section>
+  </main>
+</body>
+</html>
